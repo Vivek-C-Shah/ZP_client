@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react';
 import {useDispatch,useSelector} from 'react-redux';
 import NavBar from '../components/Navbar';
 import PageHeading from '../components/PageHeading';
+import Header from '../components/Footer';
 import ProductDetail from '../components/ProductDetail';
 import Sidebar from '../components/Sidebar';
 // import Cart from '../components/Cart';
@@ -106,6 +107,7 @@ const LoginPage = ({history}) => {
 			      </div>
 		    </section>
 		 	<Sidebar/>
+					    <Header/>
 		 	{/* <Cart/> */}
 		</>
 		)

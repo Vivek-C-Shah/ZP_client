@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/Navbar';
 import PageHeading from '../components/PageHeading';
 import ProductDetail from '../components/ProductDetail';
+import Header from '../components/Footer';
 import Sidebar from '../components/Sidebar';
 // import Cart from '../components/Cart';
 
@@ -66,6 +67,7 @@ supplying quality telecommunication products since 1999.
 				</p>
 				</section>
 		 	<Sidebar/>
+					<Header/>
 		 	{/* <Cart/> */}
 		</>
 		)

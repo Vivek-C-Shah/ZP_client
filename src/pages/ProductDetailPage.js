@@ -4,6 +4,7 @@ import {useParams} from 'react-router-dom';
 import NavBar from '../components/Navbar';
 import PageHeading from '../components/PageHeading';
 import ProductDetail from '../components/ProductDetail';
+import Header from '../components/Footer';
 import Sidebar from '../components/Sidebar';
 // import Cart from '../components/Cart';
 import Loading from '../components/Loading';
@@ -40,6 +41,7 @@ const ProductDetailPage = () => {
 		 			: <ProductDetail details={productDetail} />	
 		 	}
 		 	<Sidebar/>
+				<Header/>
 		 	{/* <Cart/> */}
 		</>
 		)

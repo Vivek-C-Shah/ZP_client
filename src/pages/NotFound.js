@@ -1,6 +1,7 @@
 import logo from '../images/logo.svg';
 import NavBar from '../components/Navbar';
 import notFoundImg from '../images/not-found.png';
+import Header from '../components/Footer';
 import {Link} from 'react-router-dom';
 
 const NotFound = () =>{
@@ -25,6 +26,7 @@ const NotFound = () =>{
               </Link>              
             </div>
           </div>
+<Header/>
         </>
       )
 }

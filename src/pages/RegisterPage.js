@@ -3,6 +3,7 @@ import {useDispatch,useSelector} from 'react-redux';
 import NavBar from '../components/Navbar';
 import PageHeading from '../components/PageHeading';
 import ProductDetail from '../components/ProductDetail';
+import Header from '../components/Footer';
 import Sidebar from '../components/Sidebar';
 // import Cart from '../components/Cart';
 import {Link} from 'react-router-dom';
@@ -123,6 +124,7 @@ const RegisterPage = ({history}) => {
 			      </div>
 		    </section>
 		 	<Sidebar/>
+					    <Header/>
 		 	{/* <Cart/> */}
 		</>
 		)

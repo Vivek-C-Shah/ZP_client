@@ -1,7 +1,7 @@
 {
   "name": "web_panel",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@stripe/react-stripe-js": "^1.7.0",
     "@stripe/stripe-js": "^1.25.0",

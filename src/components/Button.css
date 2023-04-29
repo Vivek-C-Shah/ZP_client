@@ -1,0 +1,19 @@
+.round-link {
+    display: inline-block;
+    padding: 16px;
+    border-radius: 40%;
+    background-color: lightgreen;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .round-link:hover {
+    background-color: rgb(6, 180, 6);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    color:#ffffff;
+  }
+  

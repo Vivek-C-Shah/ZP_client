@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *,
 ::after,
 ::before {
@@ -433,7 +436,7 @@ Featured Products
 .title span {
   width: 50px;
   height: 3px;
-  background: var(--textColor);
+  background: #4B5563;
   margin: 0 1rem;
 }
 /* global */

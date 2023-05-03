@@ -26,7 +26,7 @@ const FeaturedProducts = () => {
 				<section className="section featured">
 			        <div className="title">
 			          <span />
-			          <h2>Featured Products</h2>
+			          <h2 className='text-gray-600 text-center'>Featured Products</h2>
 			          <span />
 			        </div>
 			        {
@@ -37,7 +37,7 @@ const FeaturedProducts = () => {
 				        </div>
 			        }
 			        
-			        <Link to="/products" className="btn"> all products </Link>
+			        <Link to="/products" className="btn hover:text-[rgb(134,56,14)] hover:bg-white"> all products </Link>
 			    </section>
 			</>
 		)

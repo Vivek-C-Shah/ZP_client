@@ -3,7 +3,7 @@
 // import NavBar from '../components/Navbar';
 // import PageHeading from '../components/PageHeading';
 // import ProductDetail from '../components/ProductDetail';
-// import Sidebar from '../components/Sidebar';
+import Sidebar from '../components/Sidebar';
 // import Cart from '../components/Cart';
 // import {Link, useHistory} from 'react-router-dom';
 // import {showCart} from '../redux/actions/cartActions';
@@ -218,7 +218,7 @@
 //               </div>
 //             </div>
 //         </section>
-//       <Sidebar/>
+      <Sidebar/>
 //       <Cart/>
 //     </>
 //     )

@@ -8,7 +8,12 @@ import Loading from '../components/Loading';
 const FeaturedProducts = () => {
 
 	const products = useSelector((state)=> state.allProducts.products);
-	const featuredProduct = products.slice(0, 6);
+	const uniqueProducts = products.filter((product, index, self) => 
+    index === self.findIndex(p => (
+        p._id === product._id
+    ))
+);
+	const featuredProduct = uniqueProducts.slice(0, 6);
 	const renderList = featuredProduct.map((product)=>{
 		return(
 			<Product detail={product} key={product._id}/>
